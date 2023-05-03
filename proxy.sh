@@ -1,9 +1,9 @@
 #!/bin/sh
 
-PROXY_PORT_LISTEN=$0
-PROXY_HOST=$1
-PROXY_PORT=$2
+PROXY_PORT_LISTEN=$1
+PROXY_HOST=$2
+PROXY_PORT=$3
 
-echo "Proxying TCP Port $0 to $1:$2"
+echo "Proxying TCP Port $1 to $2:$3"
 
-socat TCP-LISTEN:$0,fork TCP:$1:$2
+socat TCP-LISTEN:$1,fork TCP:$2:$3
