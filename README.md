@@ -1,4 +1,4 @@
-# Socat
+# Socat Proxy
 
 A simple port proxying container. That's it. :) 
 
