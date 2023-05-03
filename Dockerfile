@@ -1,5 +1,3 @@
-FROM alpine:latest
-
-RUN apk install socat
+FROM alpine:socat
 
 ENTRYPOINT [ "/bin/sh" ]
