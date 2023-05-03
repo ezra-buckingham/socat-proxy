@@ -1,3 +1,3 @@
-FROM alpine:socat
+FROM alpine/socat:latest
 
 ENTRYPOINT [ "/bin/sh" ]
